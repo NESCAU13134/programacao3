@@ -1,0 +1,108 @@
+<!--  Comentario HTML
+1 - Plugin Emmet vem por default na instalação das versões mais novas do
+Visual Studio Code
+
+2 - Plugin Live Server ou o Live Preview da microsoft
+-->
+
+
+
+
+<!--
+    Estrutura Básica de um Documento HTML
+    
+    Tags, elementos e atributos : Compreensão das diferenças e usos.
+    
+    Estrutura de um documento HTML : <!DOCTYPE>, <html>, <head>, <body>.
+
+    Mostrador do HTML : Uso do tag <meta> para especificar a codificação de
+    caracteres, autor da página, descrição e palavras-chave.
+    -->
+
+    <!DOCTYPE html>
+    <!--A declaração "DOCTYPE html" informa que
+    temos uma declaração do tipo
+    documento(DTD).
+    Diz ao navegador que esta é uma página HTML5,
+    versão mais recente do HTML.
+    Isso que ajuda o navegador a interpretar 
+    corretamente o conteúdo da página.-->
+
+    <html lang="pt"></html>
+    <!--A tag <html>é o elemento raiz de todo documento 
+        HTML e envolve todo o 
+             conteúdo da página, exceto a declaração do 
+             tipo de documento.
+        O atributo 'lang="pt"' especifica que o idioma 
+        principal do documento é
+        o português. Isso é útil para acessibilidade e
+        motores de busca, pois
+        eles podem forncecer funcionalidades adequadas 
+        baseadas no idioma.     -->
+
+        <head>
+        <!--A tag <head> contém metadados, links para folhas de estilo, scripts e 
+            outras informações que não são diretamente visíveis na página.
+        Metadados incluem informações sobre o documento que não são mostradas 
+            diretamente na interface da página.-->         
+           <meta charset="UTF-8">
+           <!--A tag <meta> com atributo 'charset="UTF=8"' define a codificação dos
+        caracteres do documento para UTF-8.
+    UTF-8 é uma codificação de caracteres universal que inclui praticamente 
+         "todos os caracteres de todos os idiomas do mundo",
+        garantindo que qualquer texto seja exibido corretamente.-->
+
+        <meta name="author" content="Informar aqui o seu nome completo">
+        <!--Outra tag <meta>, mas desta vez usada para definir o autor do documento
+        HTML. O atributo 'name' especifica o tipo de informação (autor), e o
+              atributo 'content' fornece o nome do autor.-->
+
+         <meta name="descreption" content="Uma breve descrição da página">
+              <!--Esta tag<meta> fornece uma breve descrição do conteúdo da página.
+            Isso é frequentemente usado pelos motores de busca para entender do 
+                 que trata a página e pode aparecer nos resultados de busca.-->
+      
+        <meta name="keywords" content="exemplo, html, meta tags">
+        <!--Esta tag <meta> é usada para definir palavras-chave
+           relevantes para o conteúdo da página,
+        o que pode ajudar os motores de busca a classificar a página 
+          corretamente para essas palavras-chave-->
+                      
+        <title>Minha Primeira Página HTML</title>
+        <!--A tag <title> define o título da página, que é
+            mostrado na aba do navegador.
+         O título é um elemento crucial tanto para usabilidade quanto para a 
+            otimização de mecanismo de busca(SEO).-->
+            
+        </head>
+        <body>
+            <!--A tag <body> contém todo o conteúdo visível de uma página web, como
+                texto, imagens, vídeos, etc.
+            É aqui que a maioria do conteúdo que os usuários interagem é colocada.-->
+
+            <h1>Boa tarde pessoal do curso Técnico em Desenvolvimento de Sistemas,
+                Módulo III, disciplina Programação III. IFSC Câmpus Chapecó!</h1>
+                <!--A tag é <h1> é usada para o cabeçalho principal da página.
+                    Geralmente, é o título visível mais importante na página e tem grande peso em SEO.-->
+
+              <p> Esta é uma página de exemplo para entendermos a estrutura básica da linguagem
+                de marcação "HTML".</p>
+                <!--a tag <p> é usada para parágrafos de texto.
+                    É um bloco de texto que é geralmente separado de outros blocos por
+                espaços verticais e um recuo na primeira linha-->
+                
+                <img src="../recursos_utilizados/imagem.jpg" 
+                alt="Ícones que representa: CSS, HMTL e Javascript">
+                <!-- A tag <img> é usada para incluir uma imagem na página.
+                O atributo 'src' especifica o caminho para o arquivo da imagem que
+                    você deseja mostrar.
+                O atributo 'alt' fornece uma descrição textual da imagem, que é
+                    importante para acessibilidade e é exibida caso a imagem não possa ser carregada
+                
+                Sera usado o conceito de caminho relavtivo para dizer para o navegador onde 
+                a imagem se encontra.
+                
+                -->
+            
+        </body>
+        <html></html>
