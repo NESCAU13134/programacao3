@@ -1,7 +1,8 @@
 body{
-    color: white;
-    background-image: url("F_cultural.jpg");
-    background-repeat:no-repeat;
-    background-position:top right;
+    color: rgb(5, 124, 5);
+    font-family: Arial, sans-serif;
+    background-color: rgb(250, 250, 168);
 
 }
+img{
+    width: 300px;}

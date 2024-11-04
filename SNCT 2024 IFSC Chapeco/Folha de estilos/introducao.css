@@ -1,4 +1,9 @@
 body{
-    color: white;
-    background-color: black;
+    color: green;
+    background-color: rgb(250, 250, 168);
+    font-family: Arial, sans-serif;
+    
+}
+img{
+    width: 275px;
 }
