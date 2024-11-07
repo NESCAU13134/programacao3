@@ -6,3 +6,14 @@ body{
 img{
     width: 600px;
 }
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+dt{
+    text-align: center;
+}
