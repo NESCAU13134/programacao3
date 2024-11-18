@@ -1,8 +1,0 @@
-Linguagem de marcação de texto para desenvolvimento de páginas web; Linguagem de formatação de aparência para desenvolvimento de páginas web; Linguagens de comportamento para plataforma web
-(front-end):variáveis, expressões aritméticas, relacionais e lógicas, estruturas de controle condicional e repetição, estrutura de dados unidimensionais e multidimensionais, Sub-rotinas.
-
-
-A abordagem teorica do conteudo se dara por meio de aulas expositivas e dialogadas ministradas em laboratorio de informatica. A enfase destas aulas esta pautada em explicacoes concetuais.
-O conteudo podera ser explorado na realizacao de atividades praticas pelos estudantes com supervisao, orientecao e auxilio do professor, bem como, aulas em que o professor realiza a 
-resolucao tutorada de exercicios( o professor conduz a resolucao que é acompanhada pelos estudantes)  e aulas em que o professor exemplifica a resolucao de exercicios, bem como, pesquisas, seminarios,
-trabalhos em sala, avaliaçoes individuais ou em grupo para que os estudantes apresentem a apropiacao do conteudo
