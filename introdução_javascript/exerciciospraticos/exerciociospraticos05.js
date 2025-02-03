@@ -35,5 +35,6 @@ switch(diaDaSemana){
     case SABADO:
         console.log("Hoje é sábado");
         break;
-
+    default:
+        console.log("Dia da semana inválido");
 }
