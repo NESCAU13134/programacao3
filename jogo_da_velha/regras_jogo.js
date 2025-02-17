@@ -70,6 +70,13 @@ function fazerJogadas(indiceCelula){
 
     jogadorAtual = jogadorAtual === "X" ? "0" : "X";
 
+    if (jogadorAtual === "0" && jogoAtivo){
+        setTimeout(() => {
+            movimentoComputador();
+
+        }, 500); // Atraso de 500 milissegundos
+    }
+
 }
 
 
